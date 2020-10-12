@@ -1,5 +1,6 @@
-const axios = require('axios')
-const fs = require('fs')
+const axios = require('axios');
+const fs = require('fs');
+var btoa = require('btoa');
 const express = require("express");
 const server = express();
 

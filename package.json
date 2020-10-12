@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "axios": "^0.20.0",
+    "btoa": "^1.2.1",
     "express": "^4.15.2"
   },
   "devDependencies": {
