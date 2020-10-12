@@ -12,3 +12,7 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`El servidor se está ejecutando en http://${hostname}:${PORT}/`);
 });
+
+server.get('/upload-file', function (req, res) {
+  res.send('[GET]Saludos desde express');
+});
