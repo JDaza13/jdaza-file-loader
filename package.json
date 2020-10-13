@@ -13,7 +13,8 @@
   "dependencies": {
     "axios": "^0.20.0",
     "btoa": "^1.2.1",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "sprestlib": "^1.9.0"
   },
   "devDependencies": {
     "got": "^11.3.0",
